@@ -139,7 +139,20 @@
                 padding: 60px 8%;
             }
         }
-    </style>
+   .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 15px;
+    margin-top: 25px;
+}
+
+.skill-card {
+    background: #172238;
+    border: 1px solid #26364f;
+    padding: 20px;
+    border-radius: 8px;
+    color: #cbd5e1;
+} </style>
 </head>
 
 <body>
@@ -183,13 +196,42 @@
         </p>
     </section>
 
-    <section id="projects">
-        <h2>My Projects</h2>
-        <p>
-            Explore my data analytics projects, including dashboard
-            development, sales analysis, hospital data analysis and SQL.
-        </p>
-    </section>
+  
+<section id="about">
+    <h2>About Me</h2>
+
+    <p>
+        I am a Data Analyst with a background in data analysis,
+        reporting and business intelligence. I work with Power BI,
+        SQL, Microsoft Excel, Power Query and DAX to transform
+        raw datasets into structured information and meaningful insights.
+    </p>
+
+    <p style="margin-top: 15px;">
+        My experience includes data cleaning, exploratory analysis,
+        KPI monitoring, dashboard development and reporting.
+        Through my projects and professional training, I have
+        developed the ability to identify patterns, interpret
+        findings and communicate insights that support better
+        decision-making.
+    </p>
+</section>
+
+<section id="skills">
+    <h2>Technical Skills</h2>
+
+    <div class="skills-grid">
+        <div class="skill-card">Power BI & DAX</div>
+        <div class="skill-card">SQL (MySQL)</div>
+        <div class="skill-card">Microsoft Excel</div>
+        <div class="skill-card">Power Query</div>
+        <div class="skill-card">Data Cleaning</div>
+        <div class="skill-card">Dashboard Development</div>
+        <div class="skill-card">KPI & Trend Analysis</div>
+        <div class="skill-card">Data Visualisation</div>
+    </div>
+</section>
+
 
     <section id="contact">
         <h2>Let's Connect</h2>
