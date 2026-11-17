@@ -210,7 +210,100 @@
     border-radius: 50%;
     border: 4px solid #38bdf8;
     box-shadow: 0 0 12px rgba(56, 189, 248, 0.25);
-}</style>
+}
+    
+.contact-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    margin-top: 25px;
+}
+
+.contact-icons img {
+    width: 38px;
+    height: 38px;
+    transition: transform 0.3s ease;
+}
+
+.contact-icons img:hover {
+    transform: scale(1.2);
+} 
+        
+#contact {
+    padding: 80px 20px 30px;
+    text-align: center;
+    background: #0f172a;
+    border-top: 1px solid #1e293b;
+}
+
+#contact h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+    color: #f8fafc;
+}
+
+.contact-intro {
+    max-width: 550px;
+    margin: 0 auto 35px;
+    color: #cbd5e1;
+    line-height: 1.8;
+}
+
+.contact-details {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    flex-wrap: wrap;
+    margin-bottom: 35px;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    text-align: left;
+}
+
+.contact-item span {
+    font-size: 28px;
+    color: #38bdf8;
+}
+
+.contact-item h3 {
+    color: #38bdf8;
+    margin-bottom: 5px;
+}
+
+.contact-item p {
+    color: #e2e8f0;
+}
+
+.contact-icons {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-bottom: 35px;
+}
+
+.contact-icons img {
+    width: 35px;
+    height: 35px;
+    transition: transform 0.3s ease;
+}
+
+.contact-icons img:hover {
+    transform: scale(1.2);
+}
+
+.copyright {
+    color: #64748b;
+    font-size: 13px;
+    border-top: 1px solid #1e293b;
+    padding-top: 20px;
+}
+
+</style>
 
         </div>
     </div>
@@ -292,7 +385,7 @@
     <div class="projects-grid">
 
         <div class="project-card">
-            <div class="project-tag">POWER BI</div>
+            <div class="project-tag">MICROSOFT EXCEL & POWER BI</div>
             <h3>Hospital Data Analysis</h3>
             <p>
                 Developed an interactive hospital executive
@@ -360,21 +453,55 @@
         </a>
     </div>
 </section>
+   
+<section id="contact">
+    <h2>Get In Touch</h2>
 
-        <h2>Let's Connect</h2>
-        <p>
-            Interested in working together or discussing data analytics?
-            Feel free to reach out.
-        </p>
-        <br>
-        <a href="mailto:okpehakor7@gmail.com" class="primary">
-            Send Me an Email
+    <p class="contact-intro">
+        I'm open to data analytics opportunities,
+        professional collaborations and exciting projects.
+        Feel free to reach out.
+    </p>
+
+    <div class="contact-details">
+
+        <div class="contact-item">
+            <span>✉</span>
+            <div>
+                <h3>Email</h3>
+                <p>okpehakor7@gmail.com</p>
+            </div>
+        </div>
+
+        <div class="contact-item">
+            <span>📍</span>
+            <div>
+                <h3>Location</h3>
+                <p>Lagos, Nigeria</p>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="contact-icons">
+        <a href="https://github.com/Crababa7" target="_blank">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub">
         </a>
-    </section>
 
-    <footer>
+        <a href="https://www.linkedin.com/in/peter-okpeh-885358410/" target="_blank">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn">
+        </a>
+
+        <a href="mailto:okpehakor7@gmail.com">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg" alt="Gmail">
+        </a>
+    </div>
+
+    <p class="copyright">
         © 2026 Peter Okpeh. All Rights Reserved.
-    </footer>
+    </p>
+</section>
+
 
 </body>
 </html>
