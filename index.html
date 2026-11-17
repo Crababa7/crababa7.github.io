@@ -212,95 +212,34 @@
     box-shadow: 0 0 12px rgba(56, 189, 248, 0.25);
 }
     
-.contact-icons {
+
+.contact-socials {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 25px;
-    margin-top: 25px;
+    gap: 18px;
+    margin: 28px 0;
 }
 
-.contact-icons img {
-    width: 38px;
-    height: 38px;
-    transition: transform 0.3s ease;
-}
-
-.contact-icons img:hover {
-    transform: scale(1.2);
-} 
-        
-#contact {
-    padding: 80px 20px 30px;
-    text-align: center;
-    background: #0f172a;
-    border-top: 1px solid #1e293b;
-}
-
-#contact h2 {
-    font-size: 32px;
-    margin-bottom: 15px;
-    color: #f8fafc;
-}
-
-.contact-intro {
-    max-width: 550px;
-    margin: 0 auto 35px;
+.contact-socials a {
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: #cbd5e1;
-    line-height: 1.8;
+    background: #1e293b;
+    border: 1px solid #334155;
+    border-radius: 10px;
+    font-size: 19px;
+    text-decoration: none;
+    transition: all 0.3s ease;
 }
 
-.contact-details {
-    display: flex;
-    justify-content: center;
-    gap: 60px;
-    flex-wrap: wrap;
-    margin-bottom: 35px;
-}
-
-.contact-item {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-    text-align: left;
-}
-
-.contact-item span {
-    font-size: 28px;
+.contact-socials a:hover {
     color: #38bdf8;
-}
-
-.contact-item h3 {
-    color: #38bdf8;
-    margin-bottom: 5px;
-}
-
-.contact-item p {
-    color: #e2e8f0;
-}
-
-.contact-icons {
-    display: flex;
-    justify-content: center;
-    gap: 25px;
-    margin-bottom: 35px;
-}
-
-.contact-icons img {
-    width: 35px;
-    height: 35px;
-    transition: transform 0.3s ease;
-}
-
-.contact-icons img:hover {
-    transform: scale(1.2);
-}
-
-.copyright {
-    color: #64748b;
-    font-size: 13px;
-    border-top: 1px solid #1e293b;
-    padding-top: 20px;
+    border-color: #38bdf8;
+    transform: translateY(-3px);
 }
 
 </style>
@@ -360,15 +299,64 @@
 <section id="skills">
     <h2>Technical Skills</h2>
 
-    <div class="skills-grid">
-        <div class="skill-card">Power BI & DAX</div>
-        <div class="skill-card">SQL (MySQL)</div>
-        <div class="skill-card">Microsoft Excel</div>
-        <div class="skill-card">Power Query</div>
-        <div class="skill-card">Data Cleaning</div>
-        <div class="skill-card">Dashboard Development</div>
-        <div class="skill-card">KPI & Trend Analysis</div>
-        <div class="skill-card">Data Visualisation</div>
+  
+<section id="skills">
+    <h2>Technical Skills</h2>
+
+    <p>
+        I leverage analytical tools and techniques to
+        transform raw data into meaningful insights,
+        develop interactive dashboards and support
+        data-driven business decisions.
+    </p>
+
+
+        <div class="skill-card">
+            <h3>Power BI</h3>
+            <p>Interactive dashboards, DAX, KPI tracking and business reporting.</p>
+        </div>
+
+        <div class="skill-card">
+            <h3>SQL</h3>
+            <p>Database querying, joins, aggregations, CTEs and window functions.</p>
+        </div>
+
+        <div class="skill-card">
+            <h3>Microsoft Excel</h3>
+            <p>Data cleaning, formulas, PivotTables and data analysis.</p>
+        </div>
+
+        <div class="skill-card">
+            <h3>Power Query</h3>
+            <p>Data transformation, cleaning and preparation.</p>
+        </div>
+
+        <div class="skill-card">
+            <h3>Data Cleaning</h3>
+            <p>Handling missing values, duplicates and data inconsistencies.</p>
+        </div>
+
+        <div class="skill-card">
+            <h3>Dashboard Development</h3>
+            <p>Building interactive and informative business dashboards.</p>
+        </div>
+
+        <div class="skill-card">
+            <h3>KPI Monitoring</h3>
+            <p>Tracking performance metrics and business objectives.</p>
+        </div>
+
+        <div class="skill-card">
+            <h3>Trend Analysis</h3>
+            <p>Identifying patterns, growth and performance changes over time.</p>
+        </div>
+
+        <div class="skill-card">
+            <h3>Data Visualisation</h3>
+            <p>Communicating insights through effective charts and visuals.</p>
+        </div>
+
+
     </div>
 </section>
 
@@ -483,18 +471,28 @@
 
     </div>
 
-    <div class="contact-icons">
-        <a href="https://github.com/Crababa7" target="_blank">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub">
-        </a>
+    
+<div class="contact-socials">
 
-        <a href="https://www.linkedin.com/in/peter-okpeh-885358410/" target="_blank">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn">
-        </a>
+    <a href="https://github.com/Crababa7"
+       target="_blank" rel="noopener noreferrer"
+       aria-label="GitHub">
+        <i class="fa-brands fa-github"></i>
+    </a>
 
-        <a href="mailto:okpehakor7@gmail.com">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg" alt="Gmail">
-        </a>
+    <a href="https://www.linkedin.com/in/peter-okpeh-885358410/"
+       target="_blank" rel="noopener noreferrer"
+       aria-label="LinkedIn">
+        <i class="fa-brands fa-linkedin-in"></i>
+    </a>
+
+    <a href="mailto:okpehakor7@gmail.com"
+       aria-label="Email">
+        <i class="fa-regular fa-envelope"></i>
+    </a>
+
+</div>
+
     </div>
 
     <p class="copyright">
